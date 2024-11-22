@@ -1,86 +1,70 @@
-# Next.js Portfolio Website
+# Hi there! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 
-A modern, responsive portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and PostCSS.
+<div align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Frontend+Developer;Next.js+%7C+React+%7C+TypeScript;Always+learning+new+things" alt="Typing SVG" /></a>
+</div>
 
-## Tech Stack
-- Next.js 14
-- TypeScript
-- Tailwind CSS
-- PostCSS
+## About Me 🚀
+```typescript
+const profile = {
+    name: "Your Name",
+    location: "Your City, Country",
+    roles: ["Frontend Developer", "UI/UX Enthusiast"],
+    skills: {
+        languages: ["TypeScript", "JavaScript"],
+        frontend: ["Next.js", "React", "Tailwind CSS"],
+        tools: ["Git", "Figma", "VS Code"],
+    },
+    currentlyLearning: "Advanced TypeScript & Next.js",
+    funFact: "I code better with coffee ☕"
+};
+```
 
-## Features
-- Responsive Design
-- Dark/Light Mode
-- Modern UI/UX
-- Optimized Performance
+## My Latest Project 🛠️
+**Modern Portfolio Website**
+> A responsive portfolio built with Next.js 14, TypeScript & Tailwind CSS
 
-## Project Sections
-- Navbar
-- Hero Section
-- About
-- Skills
-- Projects
-- Contact
-- Footer
+### Features 💡
+```javascript
+const features = {
+    tech: ["Next.js 14", "TypeScript", "Tailwind CSS", "PostCSS"],
+    ui: ["Responsive", "Dark Mode", "Modern Design"],
+    performance: ["SEO Optimized", "Fast Loading", "Clean Code"],
+}
+```
 
-## Quick Start
+### Quick Start 🌟
 ```bash
+# Clone repository
+git clone https://github.com/yourusername/portfolio
+
 # Install dependencies
 npm install
 
-# Run development server
+# Start development
 npm run dev
-
-# Build for production
-npm run build
 ```
 
-## Project Structure
+### Project Structure 📂
 ```
 src/
-├── app/
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   ├── Hero/
-│   ├── Navbar/
-│   ├── Skills/
-│   ├── Projects/
-│   ├── Contact/
-│   └── Footer/
-├── styles/
-└── assets/
+  ├── app/         # Next.js app router
+  ├── components/  # UI components
+  ├── styles/      # Global styles
+  └── assets/      # Images & icons
 ```
 
-## Configuration
+---
+<div align="center">
+  
 
-```typescript
-// tailwind.config.ts
-module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
-  theme: {
-    extend: {
-      // Your custom configurations
-    },
-  },
-}
-```
-
-## Scripts
-```json
-{
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint"
-}
-```
-
-## License
-MIT License
-
-## Contact
-fiqri agustriawan : @fkriq4(ig)
+  
+  🔗 Connect with me:
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourusername)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=web)](https://yourwebsite.com)
+  [![Email](https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
+</div>
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
