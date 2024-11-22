@@ -1,18 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and PostCSS.
 
-First, run the development server:
+## Tech Stack
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- PostCSS
 
+## Features
+- Responsive Design
+- Dark/Light Mode
+- Modern UI/UX
+- Optimized Performance
+
+## Project Sections
+- Navbar
+- Hero Section
+- About
+- Skills
+- Projects
+- Contact
+- Footer
+
+## Quick Start
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
+
+## Project Structure
+```
+src/
+├── app/
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── Hero/
+│   ├── Navbar/
+│   ├── Skills/
+│   ├── Projects/
+│   ├── Contact/
+│   └── Footer/
+├── styles/
+└── assets/
+```
+
+## Configuration
+
+```typescript
+// tailwind.config.ts
+module.exports = {
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
+  theme: {
+    extend: {
+      // Your custom configurations
+    },
+  },
+}
+```
+
+## Scripts
+```json
+{
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+}
+```
+
+## License
+MIT License
+
+## Contact
+fiqri agustriawan : @fkriq4(ig)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
